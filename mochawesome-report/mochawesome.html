@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Mochawesome Report</title><link rel="stylesheet" href="assets/app.css"/></head><body data-raw="{
+  &quot;stats&quot;: {
+    &quot;suites&quot;: 1,
+    &quot;tests&quot;: 1,
+    &quot;passes&quot;: 0,
+    &quot;pending&quot;: 0,
+    &quot;failures&quot;: 1,
+    &quot;start&quot;: &quot;2019-07-10T03:26:33.317Z&quot;,
+    &quot;end&quot;: &quot;2019-07-10T03:26:34.029Z&quot;,
+    &quot;duration&quot;: 712,
+    &quot;testsRegistered&quot;: 1,
+    &quot;passPercent&quot;: 0,
+    &quot;pendingPercent&quot;: 0,
+    &quot;other&quot;: 0,
+    &quot;hasOther&quot;: false,
+    &quot;skipped&quot;: 0,
+    &quot;hasSkipped&quot;: false,
+    &quot;passPercentClass&quot;: &quot;danger&quot;,
+    &quot;pendingPercentClass&quot;: &quot;danger&quot;
+  },
+  &quot;suites&quot;: {
+    &quot;title&quot;: &quot;&quot;,
+    &quot;suites&quot;: [
+      {
+        &quot;title&quot;: &quot;Premier Connect Test Suite&quot;,
+        &quot;suites&quot;: [],
+        &quot;tests&quot;: [
+          {
+            &quot;title&quot;: &quot;Login to the Premier Connect &quot;,
+            &quot;fullTitle&quot;: &quot;Premier Connect Test Suite Login to the Premier Connect &quot;,
+            &quot;timedOut&quot;: false,
+            &quot;duration&quot;: 5,
+            &quot;state&quot;: &quot;failed&quot;,
+            &quot;pass&quot;: false,
+            &quot;fail&quot;: true,
+            &quot;pending&quot;: false,
+            &quot;code&quot;: &quot;return __awaiter(this, void 0, void 0, function () {\n    return __generator(this, function (_a) {\n        switch (_a.label) {\n            case 0: return [4 /*yield*/, login_1.login(driver, \&quot;username\&quot;, \&quot;password\&quot;, \&quot;url\&quot;)\n                    .then(function (_) { return driver.getTitle(); })\n                    .then(function (title) {\n                    chai_1.expect(\&quot;expectation\&quot;).equals(title);\n                })];\n            case 1: return [2 /*return*/, _a.sent()];\n        }\n    });\n});&quot;,
+            &quot;err&quot;: {
+              &quot;message&quot;: &quot;InvalidArgumentError: invalid argument\n  (Session info: headless chrome=75.0.3770.100)&quot;,
+              &quot;estack&quot;: &quot;InvalidArgumentError: invalid argument\n  (Session info: headless chrome=75.0.3770.100)\n    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:550:15)\n    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:560:13)\n    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)&quot;
+            },
+            &quot;isRoot&quot;: false,
+            &quot;uuid&quot;: &quot;b5c2efaf-2784-4385-8694-0d9b025e714d&quot;,
+            &quot;parentUUID&quot;: &quot;3bff5fe8-d3b3-4f69-952b-dc3b9aa309b4&quot;,
+            &quot;isHook&quot;: false,
+            &quot;skipped&quot;: false
+          }
+        ],
+        &quot;pending&quot;: [],
+        &quot;root&quot;: false,
+        &quot;_timeout&quot;: 0,
+        &quot;file&quot;: &quot;/lib/test/seleniumTest.js&quot;,
+        &quot;uuid&quot;: &quot;3bff5fe8-d3b3-4f69-952b-dc3b9aa309b4&quot;,
+        &quot;beforeHooks&quot;: [
+          {
+            &quot;title&quot;: &quot;\&quot;before all\&quot; hook&quot;,
+            &quot;fullTitle&quot;: &quot;Premier Connect Test Suite \&quot;before all\&quot; hook&quot;,
+            &quot;timedOut&quot;: false,
+            &quot;duration&quot;: 637,
+            &quot;pass&quot;: false,
+            &quot;fail&quot;: false,
+            &quot;pending&quot;: false,
+            &quot;code&quot;: &quot;return __generator(this, function (_a) {\n    switch (_a.label) {\n        case 0: return [4 /*yield*/, new browserBuilder_1.BrowserBuilder().browserBuilder()];\n        case 1:\n            driver = _a.sent();\n            return [2 /*return*/];\n    }\n});\n    });&quot;,
+            &quot;err&quot;: {},
+            &quot;isRoot&quot;: false,
+            &quot;uuid&quot;: &quot;9797a7a3-290f-4ec0-855a-a5467f256fa5&quot;,
+            &quot;parentUUID&quot;: &quot;3bff5fe8-d3b3-4f69-952b-dc3b9aa309b4&quot;,
+            &quot;isHook&quot;: true,
+            &quot;skipped&quot;: false
+          }
+        ],
+        &quot;afterHooks&quot;: [
+          {
+            &quot;title&quot;: &quot;\&quot;after all\&quot; hook&quot;,
+            &quot;fullTitle&quot;: &quot;Premier Connect Test Suite \&quot;after all\&quot; hook&quot;,
+            &quot;timedOut&quot;: false,
+            &quot;duration&quot;: 55,
+            &quot;pass&quot;: false,
+            &quot;fail&quot;: false,
+            &quot;pending&quot;: false,
+            &quot;code&quot;: &quot;return __generator(this, function (_a) {\n    switch (_a.label) {\n        case 0: return [4 /*yield*/, driver.quit()];\n        case 1:\n            _a.sent();\n            return [2 /*return*/];\n    }\n});\n    });&quot;,
+            &quot;err&quot;: {},
+            &quot;isRoot&quot;: false,
+            &quot;uuid&quot;: &quot;d1e2bc61-4039-4c06-aac2-6d9cb1161102&quot;,
+            &quot;parentUUID&quot;: &quot;3bff5fe8-d3b3-4f69-952b-dc3b9aa309b4&quot;,
+            &quot;isHook&quot;: true,
+            &quot;skipped&quot;: false
+          }
+        ],
+        &quot;fullFile&quot;: &quot;/Users/balu/Documents/work/automation/selenium-ui/lib/test/seleniumTest.js&quot;,
+        &quot;passes&quot;: [],
+        &quot;failures&quot;: [
+          {
+            &quot;title&quot;: &quot;Login to the Premier Connect &quot;,
+            &quot;fullTitle&quot;: &quot;Premier Connect Test Suite Login to the Premier Connect &quot;,
+            &quot;timedOut&quot;: false,
+            &quot;duration&quot;: 5,
+            &quot;state&quot;: &quot;failed&quot;,
+            &quot;pass&quot;: false,
+            &quot;fail&quot;: true,
+            &quot;pending&quot;: false,
+            &quot;code&quot;: &quot;return __awaiter(this, void 0, void 0, function () {\n    return __generator(this, function (_a) {\n        switch (_a.label) {\n            case 0: return [4 /*yield*/, login_1.login(driver, \&quot;username\&quot;, \&quot;password\&quot;, \&quot;url\&quot;)\n                    .then(function (_) { return driver.getTitle(); })\n                    .then(function (title) {\n                    chai_1.expect(\&quot;expectation\&quot;).equals(title);\n                })];\n            case 1: return [2 /*return*/, _a.sent()];\n        }\n    });\n});&quot;,
+            &quot;err&quot;: {
+              &quot;message&quot;: &quot;InvalidArgumentError: invalid argument\n  (Session info: headless chrome=75.0.3770.100)&quot;,
+              &quot;estack&quot;: &quot;InvalidArgumentError: invalid argument\n  (Session info: headless chrome=75.0.3770.100)\n    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:550:15)\n    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:560:13)\n    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)&quot;
+            },
+            &quot;isRoot&quot;: false,
+            &quot;uuid&quot;: &quot;b5c2efaf-2784-4385-8694-0d9b025e714d&quot;,
+            &quot;parentUUID&quot;: &quot;3bff5fe8-d3b3-4f69-952b-dc3b9aa309b4&quot;,
+            &quot;isHook&quot;: false,
+            &quot;skipped&quot;: false
+          }
+        ],
+        &quot;skipped&quot;: [],
+        &quot;hasBeforeHooks&quot;: true,
+        &quot;hasAfterHooks&quot;: true,
+        &quot;hasTests&quot;: true,
+        &quot;hasSuites&quot;: false,
+        &quot;totalTests&quot;: 1,
+        &quot;totalPasses&quot;: 0,
+        &quot;totalFailures&quot;: 1,
+        &quot;totalPending&quot;: 0,
+        &quot;totalSkipped&quot;: 0,
+        &quot;hasPasses&quot;: false,
+        &quot;hasFailures&quot;: true,
+        &quot;hasPending&quot;: false,
+        &quot;hasSkipped&quot;: false,
+        &quot;duration&quot;: 5,
+        &quot;rootEmpty&quot;: false
+      }
+    ],
+    &quot;tests&quot;: [],
+    &quot;pending&quot;: [],
+    &quot;root&quot;: true,
+    &quot;_timeout&quot;: 2000,
+    &quot;uuid&quot;: &quot;b12a0782-a336-4f4b-88c6-d4eead0e5b55&quot;,
+    &quot;beforeHooks&quot;: [],
+    &quot;afterHooks&quot;: [],
+    &quot;fullFile&quot;: &quot;&quot;,
+    &quot;file&quot;: &quot;&quot;,
+    &quot;passes&quot;: [],
+    &quot;failures&quot;: [],
+    &quot;skipped&quot;: [],
+    &quot;hasBeforeHooks&quot;: false,
+    &quot;hasAfterHooks&quot;: false,
+    &quot;hasTests&quot;: false,
+    &quot;hasSuites&quot;: true,
+    &quot;totalTests&quot;: 0,
+    &quot;totalPasses&quot;: 0,
+    &quot;totalFailures&quot;: 0,
+    &quot;totalPending&quot;: 0,
+    &quot;totalSkipped&quot;: 0,
+    &quot;hasPasses&quot;: false,
+    &quot;hasFailures&quot;: false,
+    &quot;hasPending&quot;: false,
+    &quot;hasSkipped&quot;: false,
+    &quot;duration&quot;: 0,
+    &quot;rootEmpty&quot;: true
+  },
+  &quot;allTests&quot;: [
+    {
+      &quot;title&quot;: &quot;Login to the Premier Connect &quot;,
+      &quot;fullTitle&quot;: &quot;Premier Connect Test Suite Login to the Premier Connect &quot;,
+      &quot;timedOut&quot;: false,
+      &quot;duration&quot;: 5,
+      &quot;state&quot;: &quot;failed&quot;,
+      &quot;pass&quot;: false,
+      &quot;fail&quot;: true,
+      &quot;pending&quot;: false,
+      &quot;code&quot;: &quot;return __awaiter(this, void 0, void 0, function () {\n    return __generator(this, function (_a) {\n        switch (_a.label) {\n            case 0: return [4 /*yield*/, login_1.login(driver, \&quot;username\&quot;, \&quot;password\&quot;, \&quot;url\&quot;)\n                    .then(function (_) { return driver.getTitle(); })\n                    .then(function (title) {\n                    chai_1.expect(\&quot;expectation\&quot;).equals(title);\n                })];\n            case 1: return [2 /*return*/, _a.sent()];\n        }\n    });\n});&quot;,
+      &quot;err&quot;: {
+        &quot;message&quot;: &quot;InvalidArgumentError: invalid argument\n  (Session info: headless chrome=75.0.3770.100)&quot;,
+        &quot;estack&quot;: &quot;InvalidArgumentError: invalid argument\n  (Session info: headless chrome=75.0.3770.100)\n    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:550:15)\n    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:560:13)\n    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)&quot;
+      },
+      &quot;isRoot&quot;: false,
+      &quot;uuid&quot;: &quot;b5c2efaf-2784-4385-8694-0d9b025e714d&quot;,
+      &quot;parentUUID&quot;: &quot;3bff5fe8-d3b3-4f69-952b-dc3b9aa309b4&quot;,
+      &quot;isHook&quot;: false,
+      &quot;skipped&quot;: false
+    }
+  ],
+  &quot;allPending&quot;: [],
+  &quot;allPasses&quot;: [],
+  &quot;allFailures&quot;: [
+    {
+      &quot;title&quot;: &quot;Login to the Premier Connect &quot;,
+      &quot;fullTitle&quot;: &quot;Premier Connect Test Suite Login to the Premier Connect &quot;,
+      &quot;timedOut&quot;: false,
+      &quot;duration&quot;: 5,
+      &quot;state&quot;: &quot;failed&quot;,
+      &quot;pass&quot;: false,
+      &quot;fail&quot;: true,
+      &quot;pending&quot;: false,
+      &quot;code&quot;: &quot;return __awaiter(this, void 0, void 0, function () {\n    return __generator(this, function (_a) {\n        switch (_a.label) {\n            case 0: return [4 /*yield*/, login_1.login(driver, \&quot;username\&quot;, \&quot;password\&quot;, \&quot;url\&quot;)\n                    .then(function (_) { return driver.getTitle(); })\n                    .then(function (title) {\n                    chai_1.expect(\&quot;expectation\&quot;).equals(title);\n                })];\n            case 1: return [2 /*return*/, _a.sent()];\n        }\n    });\n});&quot;,
+      &quot;err&quot;: {
+        &quot;message&quot;: &quot;InvalidArgumentError: invalid argument\n  (Session info: headless chrome=75.0.3770.100)&quot;,
+        &quot;estack&quot;: &quot;InvalidArgumentError: invalid argument\n  (Session info: headless chrome=75.0.3770.100)\n    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:550:15)\n    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:560:13)\n    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)&quot;
+      },
+      &quot;isRoot&quot;: false,
+      &quot;uuid&quot;: &quot;b5c2efaf-2784-4385-8694-0d9b025e714d&quot;,
+      &quot;parentUUID&quot;: &quot;3bff5fe8-d3b3-4f69-952b-dc3b9aa309b4&quot;,
+      &quot;isHook&quot;: false,
+      &quot;skipped&quot;: false
+    }
+  ],
+  &quot;copyrightYear&quot;: 2019
+}" data-config="{&quot;reportDir&quot;:&quot;mochawesome-report&quot;,&quot;reportTitle&quot;:&quot;selenium-ui&quot;,&quot;reportPageTitle&quot;:&quot;Mochawesome Report&quot;,&quot;inline&quot;:false,&quot;inlineAssets&quot;:false,&quot;charts&quot;:true,&quot;enableCharts&quot;:true,&quot;code&quot;:true,&quot;enableCode&quot;:true,&quot;autoOpen&quot;:false,&quot;overwrite&quot;:true,&quot;timestamp&quot;:false,&quot;ts&quot;:false,&quot;showHooks&quot;:&quot;failed&quot;,&quot;dev&quot;:false,&quot;reportFilename&quot;:&quot;mochawesome&quot;,&quot;saveJson&quot;:true,&quot;jsonFile&quot;:&quot;/Users/balu/Documents/work/automation/selenium-ui/mochawesome-report/mochawesome.json&quot;,&quot;htmlFile&quot;:&quot;/Users/balu/Documents/work/automation/selenium-ui/mochawesome-report/mochawesome.html&quot;}"><div id="report"></div><script src="assets/app.js"></script></body></html>

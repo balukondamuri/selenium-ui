@@ -1,0 +1,32 @@
+{
+  "name": "mocha_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "typescript": "3.5.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "12.0.12",
+    "@types/selenium-webdriver": "^4.0.1",
+    "chai": "4.2.0",
+    "chromedriver": "^75.0.1",
+    "del": "^5.0.0",
+    "geckodriver": "^1.16.2",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "mocha": "^4.0.1",
+    "mochawesome": "^2.3.1",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  }
+}
